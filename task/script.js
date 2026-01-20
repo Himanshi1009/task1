@@ -3,12 +3,6 @@ const loginForm = document.getElementById("loginForm");
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
 const messageBox = document.getElementById("message");
-const forgotLink = document.getElementById("forgotPassword");
-
-forgotLink.addEventListener("click", function (e) {
-    e.preventDefault();
-    alert("Password reset functionality will be available soon.");
-});
 
 loginForm.addEventListener("submit", function (event) {
     event.preventDefault(); 
